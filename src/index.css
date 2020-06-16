@@ -1,0 +1,54 @@
+@font-face {
+	font-family: 'b17Interface';
+	src: url('./fonts/PTSans.ttf');
+}
+
+@font-face {
+	font-family: 'b17InterfaceI';
+	src: url('./fonts/PTSansItalic.ttf');
+}
+
+@font-face {
+	font-family: 'b17InterfaceB';
+	src: url('./fonts/PTSansBold.ttf');
+}
+
+@font-face {
+	font-family: 'b17InterfaceBI';
+	src: url('./fonts/PTSansBoldItalic.ttf');
+}
+
+@font-face {
+	font-family: 'b17Mono';
+	src: url('./fonts/PTMono.ttf');
+}
+
+@font-face {
+	font-family: 'b17MonoB';
+	src: url('./fonts/PTMonoBold.ttf');
+}
+
+
+body {
+  margin: 0;
+  font-family: b17Interface, b17InterfaceI, b17InterfaceB, b17InterfaceBI, b17Mono, b17MonoB;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+b, strong {
+	font-family: 'b17InterfaceB';
+}
+
+button{
+	font-family: b17Interface;
+}
+
+select, input{
+	font-family: b17Mono;
+}

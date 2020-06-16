@@ -1,0 +1,53 @@
+.AskingBoard {
+   overflow: auto;
+}
+
+.AskingItem{
+	width: 97%;
+	padding-left: 1%;
+	color: #b6b4b4;
+	display: flex;
+	margin-top: 2px;
+}
+
+.AskingItem>div{
+	width: 50%;
+	margin-top: 4px;
+}
+
+.AskingBoard div:last-child{
+	margin-bottom: 10px;
+}
+
+.AskingBoard input,select{
+	width: 50%;
+	box-sizing: border-box;
+}
+
+.AskingBoard input{
+	padding-left: 3px;
+}
+
+.AskBlackInput{
+	background-color: black;
+	height: 32px;
+	font-size: 18px;
+	border-radius: 5px;
+	border: solid 1px #bfbfbf;
+	outline: none;
+}
+
+
+.AskBlackInput:focus{
+	border: solid 1px #79fff9;
+}
+
+.checkboxContainer{
+	display: flex;
+	margin-top: 10px;
+}
+
+.checkboxContainer>input{
+	width: 20px;
+    margin-top: 5px;
+}

@@ -1,0 +1,36 @@
+
+.NoPicture {
+   	margin-top: 16px;
+	background-color: #56615f;
+	height: 290px;
+	line-height: 290px;
+	border-radius: 5px;   
+	width: 99%;
+	float: left;
+	text-align: center;
+	color: gray;
+}
+
+.PicturePanel {
+   	margin-top: 16px;
+	background-color: #56615f;
+	height: 290px;
+	line-height: 290px;  
+	border-radius: 5px;
+	width: 99%;
+	float: left;
+	color: gray;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+
+.PicturePanel>img {
+    max-width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+	.NoPicture, .PicturePanel{
+		width: 32%;
+	}
+}

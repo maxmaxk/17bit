@@ -1,0 +1,56 @@
+.Body {
+   background-color: #191F26;
+   color: white;
+   display: flow-root;
+   min-height: 100%;
+}
+
+.WaitIcon {
+	width: 300px;
+}
+
+.OnError{
+	display: flex;
+	background-color: #191F26;
+	color: white;
+	padding-top: 20px;
+	height: 100%;
+}
+
+.OnError>img{
+	width: 30px;
+	height: 30px;
+}
+
+.OnError>div{
+	line-height: 30px;
+}
+
+.ButtonContainer{
+	width: 99%;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+
+.CalcButton{
+	width: 99%;
+	background-color: #56615f;
+	color: white;
+	border-radius: 5px;   
+	border: solid 2px #bfbfbf;
+	height: 32px;
+	font-size: 16px;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+.CalcButton:hover{
+	background-color: #8d6d9e;
+}
+
+@media only screen and (min-width: 768px) {
+	.CalcButton{
+		width: 200px;
+	}
+}

@@ -1,0 +1,20 @@
+.ProductsList {
+	display: flex;
+	flex-wrap: wrap;
+	position: absolute;
+	top: 300px;
+	max-height: 300px;
+	overflow: auto;
+}
+
+@media only screen and (min-width: 768px) {
+	.ProductsList {
+		top: 150px;
+	}
+}
+
+.hidden {
+	display: none;
+	opacity: 0;
+}
+

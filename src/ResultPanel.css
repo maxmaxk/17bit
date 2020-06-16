@@ -1,0 +1,44 @@
+
+.ResultPanel {
+   	margin-top: 16px;
+	background-color: #56615f;
+	border-radius: 5px;
+	width: 98%;
+	float: left;
+	color: white;
+	display: flex;
+    align-items: center;
+}
+
+.ResultPanel>img{
+	height: 30px;
+}
+
+.ResultPanel .NameCaption,.MaterialCaption,.TotalCaption{
+	padding-top: 10px;
+}
+
+.ResultPanel .TotalItem,.MaterialItem,.ItemCaption{
+	color: lightgray;
+}
+
+.ResultPanel .TotalItem:last-child{
+	padding-bottom: 10px;
+}
+
+.ResultPanel>div{
+	width: 100%;
+}
+
+.ResultPanel>div>table{
+	border-spacing: 15px;
+	width: 100%;
+}
+
+.ResultPanel>div>table>caption{
+	font-weight: bold;
+}
+
+.ResultPanel>div>table th{
+	text-align: left;
+}

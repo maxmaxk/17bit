@@ -1,0 +1,99 @@
+.Header {
+   background-color: #191F26;
+   color: white;
+   margin-top: 0px;
+   margin-bottom: 1px;
+   display: flex;
+}
+
+@media only screen and (min-width: 768px) {
+	.Header {
+		height: 70px;
+		display: block;
+	}
+}
+
+.userName, .logoutButton{
+	cursor: pointer;
+	color: lightgray;
+}
+
+.userName>a:hover, .logoutButton:hover{
+	color: white;
+}
+
+.userInfo{
+	float: right;
+	height: 60px;
+	line-height: 25px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+.userName>a{
+	text-decoration: none;
+	color: lightgray;
+}
+
+.Header>a{
+	text-decoration: none;
+	color: white;
+}
+
+.Header>a>.logo>div:first-child{
+	height: 16px;
+	letter-spacing: 11px;
+	padding-left: 4px;
+}
+
+.Header>a>.logo>div:last-child{
+	font-size: 50px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 40px;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+	.Header>a>div:last-child{
+		margin-left: 30px;
+	}
+}
+
+.Header>a>div>h2{
+	margin: 0;
+}
+
+.Header>a>div>h3{
+	margin: 0;
+}
+
+@media only screen and (min-width: 768px) {
+	.Header>a>div>h2{
+		height: 16px;
+		margin-top: 0px;
+	}
+	.Header>a>div>h3{
+		margin-top: 20px;
+	}
+}
+
+.logo,.slogan{
+	float: left;
+}
+
+.loginButton{
+	height: 70px;
+	line-height: 70px;
+	cursor: pointer;
+	float: right;
+	margin-right: 2%;
+	color: lightgray;
+}
+
+.loginButton:hover{
+	color: white;
+}
+
+

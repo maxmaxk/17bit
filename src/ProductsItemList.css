@@ -1,0 +1,31 @@
+.ProductsItemList {
+	/*border-right: solid gray 1px;
+	border-bottom: solid gray 1px;*/
+	height: 20px;
+	line-height: 20px;
+	width: 100%;
+	cursor: pointer;
+	display: flex;
+	background-color: black;
+}
+
+.ProductsItemList>.Caption{
+	padding-left: 10px;
+	width: 100%;
+}
+
+.ProductsItemList:hover{
+	background-color: #225397;
+/*	animation-name: colorAnime;
+    animation-duration: 0.3s;*/
+}
+
+/*@keyframes colorAnime {
+  from {background-color: #2d3130;}
+  to {background-color: #225397;}
+}
+
+.ProductsItemList>.Caption:hover{
+	padding-left: 12px;
+}*/
+

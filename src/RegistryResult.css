@@ -1,0 +1,15 @@
+
+.RegistryResult {
+   	margin-top: 16px;
+	background-color: #56615f;
+	border-radius: 5px;
+	width: 98%;
+	float: left;
+	color: white;
+	display: flex;
+    align-items: center;
+}
+
+.RegistryResult>img{
+	height: 30px;
+}

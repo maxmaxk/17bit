@@ -1,0 +1,89 @@
+.CommonPanel {
+	color: white;
+	width: 99%;
+	float: left;
+	height: 290px;
+	border-radius: 5px;
+	background-color: #56615f;
+	margin-top: 16px;
+}
+
+@media only screen and (min-width: 768px) {
+	.CommonPanel{
+		width: 32%;
+		margin-left: 1%;
+	}
+}
+
+.CommonPanel>div{	
+	margin-left: 2%;
+	margin-top: 2px;
+	
+	color: #b6b4b4;
+	display: flex;
+	width: 97%;
+}
+
+.CommonPanel>div>div{
+	width: 30%;
+	margin-top: 4px;
+}
+
+.CommonPanel>div>select input{
+	width: 50%;
+}
+
+#alfaSort, #sectionSort{
+	width: 20px;
+}
+
+#alfaSort{
+	margin-left: 30%;
+}
+
+.CommonPanel input{
+	margin-left: 2%;
+	padding-left: 3px;
+	width: 70%;
+	box-sizing: border-box;
+}
+
+.CommonPanel select{
+	margin-left: 2%;
+	width: 70%;
+	box-sizing: border-box;
+}
+
+.blackInput, .blackSelect{
+	background-color: black;
+	height: 33px;
+	font-size: 18px;
+	border-radius: 5px;
+	border: solid 1px #bfbfbf;
+	outline: none; 
+}
+
+.blackSelect:required:invalid{
+	color: gray;
+}
+
+option {
+  color: white;
+}
+
+.blackSelect{
+	color: white;
+}
+
+.matchInput{
+	color: white;
+}
+
+.dismatchInput{
+	color: red;
+}
+
+.blackInput:focus, .blackSelect:focus{
+	border: solid 1px #79fff9;
+}
+

@@ -1,0 +1,39 @@
+.DetailPanel {
+   	margin-top: 10px;
+	background-color: #56615f;
+	height: auto;
+	border-radius: 5px;   
+	width: 99%;
+	overflow: hidden;
+	float: left;
+}
+
+.NotChoose{
+	color: gray;
+	line-height: 290px;
+	float: left;
+	text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+	.DetailPanel {
+		margin-top: 16px;	
+		width: 32%;
+		float: left;
+		margin-left: 1%;	
+		min-height: 290px;		
+	}
+}
+
+.WaitDetailPanelIcon{
+	width: 300px;
+	margin-left: 10px;
+}
+
+.captionDetails{
+	background-color: #6d6d9e;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: white;
+}

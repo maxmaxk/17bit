@@ -1,0 +1,40 @@
+.LoginForm {
+	position: absolute;
+	top: 50px;
+	right: 20px;
+	width: 200px;
+	height: 150px;
+	background-color: #615e5e;
+	border: gray 1px solid;
+}
+
+.LoginForm>input{
+	width: 96%;
+	box-sizing: border-box;
+}
+
+.LoginForm>p>input:hover{
+	background-color: white;
+}
+
+#login{
+	margin-top: 5px;
+}
+
+#login,#password,p{
+	margin-left: 2%;
+}
+
+.registryButton>a, .forgetPasswordButton>a{
+	color: lightgray;
+	cursor: pointer;
+	margin-left: 2%;
+}
+
+.registryButton>a:hover, .forgetPasswordButton>a:hover{
+	color: white;
+}
+
+.registryButton>a, .forgetPasswordButton>a{
+	text-decoration: none;
+}

@@ -1,0 +1,21 @@
+.MessageDlg{
+	position: fixed;
+	top: 100px;
+	left: 30%;
+	width: 40%;
+	height: 50px;
+	line-height: 50px;
+	background-color: #615e5e;
+	border: gray 1px solid;
+	color: lightgray;
+	text-align: center;
+}
+
+.MessageDlg.Hidden{
+	opacity: 0;
+	transition: all 2000ms linear;
+}
+
+.MessageDlg.Closed{
+	display: none;
+}

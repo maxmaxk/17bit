@@ -1,0 +1,36 @@
+.RemindPassForm {
+   background-color: #191F26;
+   color: lightgray;
+   display: flow-root;
+   min-height: 100%;
+}
+
+.RemindPassForm>div>label{
+	width: 30%;
+	margin-top: 4px;
+	margin-right: 10px;
+	display: inline-block;
+}
+
+.RemindPassForm>div>input{
+	width: 60%;
+	margin-top: 4px;
+	color: lightgray;
+}
+
+.RemindPassButton{
+	width: 150px;
+	background-color: #56615f;
+	color: white;
+	border-radius: 5px;   
+	border: solid 2px #bfbfbf;
+	height: 32px;
+	font-size: 16px;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+.RemindPassButton:hover{
+	background-color: #8d6d9e;
+}
+
