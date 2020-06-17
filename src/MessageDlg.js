@@ -1,5 +1,5 @@
 /**********************************************************
-* Class responsible for messages form render. 
+* Class responsibles for messages form render. 
 * Form disappear automatically
 *
 * Класс отвечающий за рендер вспывающего окна уведомлений.
