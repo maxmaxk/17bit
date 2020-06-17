@@ -1,5 +1,5 @@
 /**********************************************************
-* Class responsible for popup products list form.
+* Class responsibles for popup products list form.
 * It implements methods of sorting and filering
 *
 * Класс отвечающий за рендер вспывающего окна списка изделий.
