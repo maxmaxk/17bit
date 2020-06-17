@@ -1,5 +1,5 @@
 /**********************************************************
-* Class responsible for remind password form render
+* Class responsibles for remind password form render
 *
 * Класс отвечающий за рендер формы напоминания пароля
 ***********************************************************/
