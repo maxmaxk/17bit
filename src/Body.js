@@ -1,5 +1,5 @@
 /**********************************************************
-* Class responsible for information panels render.
+* Class responsibles for information panels render.
 * It handles user choose of detail steel type, 
 * manages data flow between panels and also
 * loads necessary dictionaries into cache
