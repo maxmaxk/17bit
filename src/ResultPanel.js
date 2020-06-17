@@ -1,5 +1,5 @@
 /**********************************************************
-* Class responsible for product calculation results form render
+* Class responsibles for product calculation results form render
 *
 * Класс отвечающий за рендер панели с результатами расчета изделия
 ***********************************************************/
