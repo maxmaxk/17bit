@@ -1,5 +1,5 @@
 /**********************************************************
-*Class responsible for register results form render
+* Class responsibles for register results form render
 *
 * Класс отвечающий за рендер панели результата регистрации пользователя
 ***********************************************************/
