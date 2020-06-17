@@ -1,6 +1,6 @@
 
 /**********************************************************
-* Class responsible for new user register form and change password form
+* Class responsibles for new user register form and change password form
 *
 *
 * Класс отвечающий за рендер формы регистрации нового
