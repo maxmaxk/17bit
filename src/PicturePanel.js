@@ -1,5 +1,5 @@
 /**********************************************************
-* Class responsible for left panel render (image of product)
+* Class responsibles for left panel render (image of product)
 *
 * Класс отвечающий за рендер левой панели изображения изделия
 ***********************************************************/
