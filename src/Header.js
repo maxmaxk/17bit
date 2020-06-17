@@ -1,5 +1,5 @@
 /**********************************************************
-* Class responsible for header render and showing of current user
+* Class responsibles for header render and showing of current user
 *
 * Класс отвечающий за рендер шапки и отображения текущего юзера
 ***********************************************************/
