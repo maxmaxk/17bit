@@ -1,5 +1,5 @@
 /**********************************************************
-* Class responsible for right panel render, which allow user 
+* Class responsibles for right panel render, which allow user 
 * to enter params of current detail. All necessary dictionaries 
 * get from DetailPanel instance
 *
