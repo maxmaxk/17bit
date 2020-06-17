@@ -1,5 +1,5 @@
 /**********************************************************
-* Class responsible for right panel render (for choose params of product). 
+* Class responsibles for right panel render (for choose params of product). 
 * It gets scheme of product and sends it to AskingBoard instance.
 *
 *
