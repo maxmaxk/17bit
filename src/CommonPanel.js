@@ -1,5 +1,5 @@
 /**********************************************************
-* Class responsible for common panel render 
+* Class responsibles for common panel render 
 * (steel type choose and product choose)
 *
 *
